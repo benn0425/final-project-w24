@@ -2,14 +2,57 @@
     box-sizing: border-box;
 }
 
+img {
+    width: 100%;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
 h1 {
     font-size: 2.027rem;
+    font-weight: 500;
 }
 
 h2 {
     font-size: 1.802rem;
+    font-weight: 700;
 }
 
 h3 {
-    font-size: 1.266rem 
+    font-size: 1.266rem;
+    font-weight: 700; 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 20%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase ;
+    font-weight: 500;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+    text-decoration: none;
+    margin: 0 1rem;
+    color: black;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    color: #fff;
+    background-color: black;
+    padding: 0.8em 1em;
+    border: 2px solid #000;
+    border-radius: 4px;
 }
