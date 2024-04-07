@@ -46,7 +46,7 @@ header {
     padding: 0em 1em 2em 1em;
 }
 
-.logo {
+#logo {
     width: 30%;
     max-width: 150px;
 }
