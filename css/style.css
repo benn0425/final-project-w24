@@ -168,6 +168,10 @@ nav ul li a:focus {
     padding: 1em;
 }
 
+blockquote {
+    margin: 0;
+}
+
 .reviews {
     display: grid;
     grid-template-columns: 1fr;
@@ -195,9 +199,9 @@ nav ul li a:focus {
 }
 
 
-.names {
+/* .names {
     font-style: italic;
-}
+} */
 
 .titles {
     text-align: center;
