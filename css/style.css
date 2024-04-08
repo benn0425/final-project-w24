@@ -9,7 +9,6 @@ img {
 body {
     font-family: "Poppins", sans-serif;
     margin: 0 auto;
-    /* padding: 1.5em; */
     color: #222;
 }
 
@@ -17,11 +16,6 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
-
-/* header .wrapper {
-    margin: 0;
-    padding-left: 0;
-} */
 
 
 h1 {
@@ -81,14 +75,12 @@ nav ul li a:focus {
     color: #fff;
     background-color: black;
     padding: 0.25em 0.5em;
-    /* border: 2px solid #000; */
     border-radius: 4px;
     margin-bottom: auto;
 }
 
 .pkg {
     display: grid;
-    /* padding: 1em; */
     gap: 1em;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 3fr 1fr;
@@ -198,14 +190,8 @@ blockquote {
     padding-bottom: 1em;
 }
 
-
-/* .names {
-    font-style: italic;
-} */
-
 .titles {
     text-align: center;
-    /* padding-top: 1em; */
 }
 
 .flavours {
@@ -213,7 +199,6 @@ blockquote {
     text-align: center;
     gap: 1em;
     padding: 0em 1em 2em 1em;
-    /* background-color: #dcdce4; */
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas:
@@ -336,7 +321,6 @@ footer {
         text-align: center;
         gap: 1em;
         padding: 0em 1em 2em 1em;
-        /* background-color: #dcdce4; */
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: 1fr;
         grid-template-areas:
